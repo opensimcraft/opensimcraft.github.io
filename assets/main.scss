@@ -7,3 +7,13 @@
 @import "syntax-highlighting";
 @import "bootstrap-4-jekyll/bootstrap-4-jekyll";
 @import "bootstrap_customization";
+
+.page-content {
+    article {
+        section {
+            p {
+                a { color:$orange;}
+            }
+        }
+    }
+}

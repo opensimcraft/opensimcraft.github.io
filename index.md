@@ -65,7 +65,7 @@ TODO: figure out a part registry
 ## Required Contents
 Each repository must have:
 
-* [FreeCAD](https://www.freecadweb.org/) is the CAD tool that the community is
+* [FreeCAD] is the CAD tool that the community is
   using, along with the
   [Assembly4](https://github.com/Zolko-123/FreeCAD_Assembly4) add-on. See the
   CAD section for additional details on requirements.
@@ -82,7 +82,7 @@ Each repository must have:
   TODO: define a standard README layout for design repositories
 
 ## FreeCAD Requirements
-All designs should be created with [FreeCAD](https://www.freecadweb.org/).
+All designs should be created with [FreeCAD].
 Since designs should be made up of unique parts, FreeCAD files should either
 contain a single part, or only a logical assembly of several individual
 parts. Ultimately, a cockpit design may be an assembly of assemblies, with
@@ -107,3 +107,6 @@ each instance of the part. If you have more than 26 instances of the same
 part, you would circle to the top of the alphabet and continue with two
 letters. So, you would have `-Y`, `-Z`, and then `-AA` followed by `-AB`, and
 so on and so forth.
+
+
+[FreeCAD]: https://FreeCAD.Org
